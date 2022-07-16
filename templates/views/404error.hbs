@@ -1,0 +1,34 @@
+           
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     {{>headerlinks}}
+</head>
+<body>
+
+     <!--header part  -->
+      {{>header}}
+     <!-- section part -->
+     <div class="container-fluid main_header">
+          <div class="row">
+                         <!-- right side div -->
+                         <div class="col-md-10 col-12 main_header_right mx-auto align-items-center">
+                             <figure>
+                                   <img src="images/error.jpg" alt="saeed barcha" id="errImg">
+                              </figure>
+                           <p id="errP">Welcome to Barcha's Website</p>
+                              <h1 id="errH1">{{errorMsg}}</h1>
+                              <a href="/">
+                                <button class="my_btn" id="errBtn">Go Back</button>
+                              </a>
+                           </div>
+                    </div>
+          </div>     
+   {{>footer}}
+                  
+            
+</body>
+<script src="js/main.js"></script>
+
+</html>
